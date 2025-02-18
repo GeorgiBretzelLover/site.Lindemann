@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 50px;
+}
+#oldPhoto{
+    width: 430px;
+    height: 480px;
+    border: 10px solid black;
+}
+#underhead{
+    font-size: 30px;
+}
+p{
+    margin: 10px;
+    font-size: 24px;
+}
+.box{
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#famousQuotes{
+    text-align: center;
+    color: darkblue;
+    font-size: 40px;
+}
+.quote{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 35px;
+}
+#hisLife{
+    background: darkgray;
+    width: 700px;
+    padding: 20px;
+    padding-right: 52px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#newPhoto{
+    width: 600px;
+    height: 380px;
+    margin-left: 10px;
+    border: 10px solid black;
+}
+
+body {
+    background-color: gray;
+}
